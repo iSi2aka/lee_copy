@@ -11,15 +11,8 @@
 }
 
 .swiper {
-  width: 100vw;
+  width: 100%;
   height: 500px;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: red; /* 矢印の色を赤に設定 */
-  font-size: 24px; /* 矢印のフォントサイズを変更 */
-  /* 他のスタイリングを追加 */
 }
 
 .top_img{
