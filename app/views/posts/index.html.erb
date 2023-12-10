@@ -44,6 +44,9 @@
         // Optional parameters
         direction: 'horizontal',
         loop: true,
+        slidesPerView: 3,
+        speed: 1000,
+        spaceBetween: 30,
 
         // If we need pagination
         pagination: {
@@ -54,6 +57,7 @@
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
+          hideOnClick: true,
         },
 
         // And if we need scrollbar
@@ -61,6 +65,11 @@
           el: '.swiper-scrollbar',
           hide: true,
         },
+
+        autoplay: {
+          delay: 3000,
+        }
+        
       });
     </script>
     </div>
