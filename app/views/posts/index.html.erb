@@ -1,26 +1,87 @@
-<header>
-  <div class='head'>
-  </div>
+<html>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-  <div class='head_pictures'>
-  </div>
-</header>
+  <header>
+    <div class='head'>
+    </div>
 
-<body>
-  <div class='features'>
-  </div>
+    <div class='head_pictures'>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+              <%= image_tag "1.png", class: "top_img" %>
+            </div>
+          <div class="swiper-slide">
+              <%= image_tag "4.png", class: "top_img" %>
+            </div>
+          <div class="swiper-slide">
+              <%= image_tag "15.png", class: "top_img" %>
+            </div>
+          <div class="swiper-slide">
+              <%= image_tag "20.png", class: "top_img" %>
+            </div>
+          <div class="swiper-slide">
+              <%= image_tag "17.png", class: "top_img" %>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-  <div class='news'>
-  </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-  <div class='insta'>
-  </div>
-</body>
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
 
-<footer>
-  <div class='tale_pictures'>
-  </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-  <div class='foot'>
-  </div>
-</footer>
+        // If we need pagination
+        pagination: {
+          // el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },
+      });
+    </script>
+    </div>
+  </header>
+
+  <body>
+    <div class='features'>
+    </div>
+
+    <div class='news'>
+    </div>
+
+    <div class='insta'>
+    </div>
+  </body>
+
+  <footer>
+    <div class='tale_pictures'>
+    </div>
+
+    <div class='foot'>
+    </div>
+  </footer>
+</html>
