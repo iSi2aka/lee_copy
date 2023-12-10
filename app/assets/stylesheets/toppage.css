@@ -2,6 +2,38 @@
   height: 80px;
   background-color: black;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos{
+  width: 50%;
+  margin-left: 40px;
+}
+
+.logo{
+  height: 80px;
+}
+
+.menus{
+  width: 50%;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menus a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menus a:hover{
+  text-decoration: underline;
+  color: gray;
 }
 
 .head_pictures{
