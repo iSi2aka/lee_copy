@@ -33,6 +33,7 @@
   list-style: none;
   text-decoration: none;
   color: inherit;
+  transition: color 0.5s;
 }
 
 .menus a:hover{
