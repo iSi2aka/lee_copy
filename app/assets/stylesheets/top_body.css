@@ -1,0 +1,61 @@
+.features {
+  width: 75%;
+  margin: 200px auto 0;
+  text-align: center; /* 親要素を中央揃えにする */
+}
+
+.feature_title, 
+.feature_allview {
+  margin: auto; /* 中央揃えにする */
+}
+
+.feature_title_main{
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.feature_title_sub{
+  font-size: medium;
+  font-weight: 400;
+}
+
+.feature_upper_links,
+.feature_bottom_links{
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature_link{
+  text-align: left; /* キャプションを左寄せにする */
+}
+
+.link_image {
+  max-width: 100%; /* 画像が親要素をはみ出さないようにする */
+  height: 300px;
+}
+
+.caption{
+  max-width: 300px; 
+  margin-top: 5px;
+  font-size: small;
+}
+
+.feature_allview{
+  width: 50%;
+  height: 65px;
+  margin-bottom: 100px;
+  border: 3px solid black;
+  font-size: large;
+  font-weight: 900;
+  line-height: 65px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.feature_allview:hover{
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 900;
+  line-height: 65px;
+}

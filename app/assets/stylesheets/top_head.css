@@ -1,3 +1,7 @@
+.headrer{
+  height: 600px;
+}
+
 .head{
   height: 80px;
   background-color: black;
@@ -48,5 +52,5 @@
 }
 
 .top_img{
-  width: 515px;
+  width: 510px;
 }
