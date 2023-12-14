@@ -1,0 +1,90 @@
+<!-- Slider main container -->
+<div class="swiper_foot">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <%= image_tag "21.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "14.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "15.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "16.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "18.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "4.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "12.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "20.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "5.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "6.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "7.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "9.png", class: "foot_img" %>
+    </div>
+    <div class="swiper-slide">
+      <%= image_tag "11.png", class: "foot_img" %>
+    </div>
+    
+  </div>
+  <!-- If we need pagination -->
+  <%# <div class="swiper-pagination"></div> %>
+
+  <!-- If we need navigation buttons -->
+  <%# <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> %>
+
+  <!-- If we need scrollbar -->
+  <%# <div class="swiper-scrollbar"></div> %>
+</div>
+
+
+<script>
+  const swiper_foot = new Swiper('.swiper_foot', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 6,
+  speed: 1000,
+  spaceBetween: 30,
+  slidesPerGroup: 4,
+
+  // If we need pagination
+  pagination: {
+    // el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    // nextEl: '.swiper-button-next',
+    // prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    // el: '.swiper-scrollbar',
+    // hide: true,
+  },
+
+  autoplay: {
+      delay: 5000,
+    }
+});
+</script>
