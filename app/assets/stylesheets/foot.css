@@ -1,10 +1,49 @@
 .foot{
-  height: 300px;
+  height: 250px;
   background-color: gray;
 }
 
 .topic{
-  width: 80%;
-  margin: 80px auto 50px;
-  
+  width: 75%;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_ul{
+  width: 45%;
+  height: 100px;
+  margin: 60px 0 0 50px;
+  color: white;
+  font-size: medium;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fl_up{
+  flex: 1 0 50%; /* 50% 幅で表示 */
+  box-sizing: border-box;
+  /* padding: 10px; 適切な余白を設定 */
+}
+
+.info{
+  margin-top: 50px;
+}
+
+.f_icon{
+  height: 40px;
+  margin-left: 100px;
+}
+
+.f_info{
+  height: 40px;
+  margin: 20px 25px;
+}
+
+.copyright{
+  width: 75%;
+  margin: 10px auto;
+  font-size: small;
+  color: white;
+  text-align: right;
 }
