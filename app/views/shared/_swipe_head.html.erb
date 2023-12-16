@@ -36,9 +36,16 @@
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 3,
     speed: 1000,
     spaceBetween: 30,
+    breakpoints:{
+      900: {
+        slidesPerView: 2,
+      },
+      1400: {
+        slidesPerView: 3,
+      },
+    },
 
     // If we need pagination
     pagination: {
