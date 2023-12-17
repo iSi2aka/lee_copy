@@ -53,5 +53,26 @@
 }
 
 .top_img{
-  width: 510px;
+  width: 100vw;
+}
+
+
+/* レスポンシブ対応 *************************************/
+
+@media (max-width: 2000px) {
+  .top_img {
+    width: 33vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .top_img {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .top_img {
+    width: 100vw;
+  }
 }
