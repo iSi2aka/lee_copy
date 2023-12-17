@@ -34,8 +34,8 @@
 }
 
 .link_image {
-  max-width: 100%; /* 画像が親要素をはみ出さないようにする */
-  height: 300px;
+  /* max-width: 100%; 画像が親要素をはみ出さないようにする */
+  width: 300px;
 }
 
 .caption{
@@ -74,8 +74,8 @@
 }
 
 .news_link_image{
-  max-width: 100%; /* 画像が親要素をはみ出さないようにする */
-  height: 185px;
+  /* max-width: 100%; 画像が親要素をはみ出さないようにする */
+  width: 185px;
 }
 
 .news_caption{
@@ -84,4 +84,27 @@
   text-align: left;
   font-size: medium;
 
+}
+
+
+/* レスポンシブ対応 *************************************/
+
+/* タブレット表示時 */
+@media (max-width: 1000px) {
+  .link_image {
+    width: 200px;
+  }
+  .news_link_image{
+    width: 120px;
+  }
+}
+
+/* スマホ表示時 */
+@media (max-width: 500px) {
+  .link_image {
+    width: 120px;
+  }
+  .news_link_image{
+    width: 90px;
+  }
 }
