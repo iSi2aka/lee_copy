@@ -10,9 +10,6 @@
       <%= image_tag "14.png", class: "foot_img" %>
     </div>
     <div class="swiper-slide">
-      <%= image_tag "15.png", class: "foot_img" %>
-    </div>
-    <div class="swiper-slide">
       <%= image_tag "16.png", class: "foot_img" %>
     </div>
     <div class="swiper-slide">
@@ -61,10 +58,23 @@
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 6,
   speed: 1000,
   spaceBetween: 30,
-  slidesPerGroup: 4,
+
+  breakpoints:{
+    10: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+    600: {
+      slidesPerView: 6,
+      slidesPerGroup: 3,
+    },
+    1200: {
+      slidesPerView: 6,
+      slidesPerGroup: 3,
+    },
+  },
 
   // If we need pagination
   pagination: {
