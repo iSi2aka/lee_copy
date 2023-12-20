@@ -70,7 +70,7 @@
 /* newsのcss ***************************************/
 
 .news_links{
-  margin: 75px;
+  margin: 75px auto;
   display: flex;
   justify-content: space-around;
 }
@@ -113,7 +113,9 @@
     width: 100%;
   }
   .news_links{
-    margin: 0 auto;
+    margin: 75px auto;
+    display: flex;
+    justify-content: flex-start;
     overflow: scroll;
   }
   .news_link_image{
