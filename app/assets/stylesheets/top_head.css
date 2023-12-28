@@ -11,7 +11,7 @@
 }
 
 .logos{
-  width: 50%;
+  /* width: 50%; */
   margin-left: 40px;
 }
 
@@ -75,4 +75,11 @@
   .top_img {
     width: 100vw;
   }
+  .head {
+    justify-content: center;
+  }
+  .logos {
+    margin-left: 0;
+  }
+  .menus{ display: none; }
 }
