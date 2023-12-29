@@ -69,6 +69,9 @@
   .top_img {
     width: 50vw;
   }
+  .menus a {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 600px) {
