@@ -2,7 +2,6 @@
 @media (min-width: 600px) {
   .btn,
   .container {display: none;}
-  
 }
 
 
@@ -69,8 +68,7 @@
   }
 
 
-  .hum {
-  }
+  
   .hum li {
     border-bottom: 1px solid lightgray;
     line-height: 55px;
