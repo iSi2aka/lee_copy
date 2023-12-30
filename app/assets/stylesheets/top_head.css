@@ -17,6 +17,7 @@
 
 .logo{
   height: 80px;
+  margin-right: 20px;
 }
 
 .menus{
@@ -79,10 +80,14 @@
     width: 100vw;
   }
   .head {
-    justify-content: center;
+    height: 50px;
+    justify-content: space-between;
   }
   .logos {
     margin-left: 0;
+  }
+  .logo {
+    height: 50px;
   }
   .menus{ display: none; }
 }
