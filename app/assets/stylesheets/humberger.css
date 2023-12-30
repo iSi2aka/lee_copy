@@ -9,11 +9,10 @@
 @media (min-width: 1px) {
   .container{
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top: 50px;
     left: 0;
-    right: calc(100vw - 75%);
-    background-color: black;
+    right: 0;
+    background-color: white;
     z-index: 9;
     opacity: 0;
     pointer-events: none;
@@ -69,6 +68,16 @@
     position: fixed;
   }
 
+
+  .hum {
+  }
+  .hum li {
+    border-bottom: 1px solid lightgray;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+  }
 }
 
 
