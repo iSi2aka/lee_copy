@@ -10,8 +10,8 @@
       </div>
       <div class='container'>
         <ul class='hum'>
-          <li>FEATURES</li>
-          <li>NEWS</li>
+          <li><%= link_to "FEATURES", features_index_path %></li>
+          <li><%= link_to "NEWS", news_index_path %></li>
           <li><%= link_to("SHOPLIST", "https://lee-japan.jp/")%></li>
           <li><%= link_to("ONLINE SHOP", "https://lee-japan.jp/")%></li>
         </ul>
@@ -21,8 +21,8 @@
       </div>
 
       <ul class="menus">
-        <li clsss="menu">FEATURES</li>
-        <li clsss="menu">NEWS</li>
+        <li clsss="menu"><%= link_to "FEATURES", features_index_path %></li>
+        <li clsss="menu"><%= link_to "NEWS", news_index_path %></li>
         <li>
           <%= link_to("SHOPLIST", "https://lee-japan.jp/", clsss:"menu")%>
         </li>
@@ -74,7 +74,9 @@
       </div>
     </div>
 
-    <div class='allview'>VIEW ALL</div>
+    <div class='allview'>
+      <%= link_to "VIEW ALL", features_index_path %>
+    </div>
   </div>
 
 
@@ -108,7 +110,9 @@
       
     </div>
 
-    <div class='allview'>VIEW ALL</div>
+    <div class='allview'>
+      <%= link_to "VIEW ALL", news_index_path %>
+    </div>
   </div>
 
   <div class='insta'>
