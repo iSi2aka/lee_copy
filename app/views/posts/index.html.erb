@@ -2,36 +2,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <header>
-    <div class='head'>
-      <div class='btn'>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <div class='container'>
-        <ul class='hum'>
-          <li><%= link_to "FEATURES", features_index_path %></li>
-          <li><%= link_to "NEWS", news_index_path %></li>
-          <li><%= link_to("SHOPLIST", "https://lee-japan.jp/")%></li>
-          <li><%= link_to("ONLINE SHOP", "https://lee-japan.jp/")%></li>
-        </ul>
-      </div>
-      <div class="logos">
-        <%= image_tag "ロゴ_lee.png", class: "logo" %>
-      </div>
-
-      <ul class="menus">
-        <li clsss="menu"><%= link_to "FEATURES", features_index_path %></li>
-        <li clsss="menu"><%= link_to "NEWS", news_index_path %></li>
-        <li>
-          <%= link_to("SHOPLIST", "https://lee-japan.jp/", clsss:"menu")%>
-        </li>
-        <li>
-          <%= link_to("ONLINE SHOP", "https://lee-japan.jp/", clsss:"menu")%>
-        </li>
-      </ul>
-
-    </div>
+    <%= render "shared/header" %>
 
     <div class='head_pictures'>
       <%= render "shared/swipe_head" %>
