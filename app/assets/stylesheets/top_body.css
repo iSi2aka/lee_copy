@@ -65,6 +65,13 @@
   line-height: 65px;
 }
 
+.allview a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s;
+}
+
 
 
 /* newsのcss ***************************************/

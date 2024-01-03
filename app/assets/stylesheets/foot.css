@@ -30,6 +30,13 @@
   /* padding: 10px; 適切な余白を設定 */
 }
 
+.fl_up a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s;
+}
+
 .info{
   margin-top: 50px;
 }
