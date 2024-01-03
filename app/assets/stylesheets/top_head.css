@@ -45,6 +45,13 @@
   color: gray;
 }
 
+.hum a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s;
+}
+
 .head_pictures{
   height: 450px;
   margin-bottom: 5px;
