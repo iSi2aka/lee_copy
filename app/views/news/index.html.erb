@@ -1,1 +1,75 @@
-<h1>news#index</h1>
+<html>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <header>
+    <%= render "shared/header" %>
+  </header>
+
+  <div class='news'>
+    <div class='title'>
+      <div class='title_main'>NEWS</div>
+      <div class='title_sub'>新着情報</div>
+    </div>
+
+    <div class='news_links'>
+      <div class='news_link'>
+        <%= image_tag'6.png', class:'news_link_image'%>
+        <div class='news_caption'>2023/10/25<br> ​​バディリーの特別限定アイテム</div>
+      </div>
+      <div class='news_link'>
+        <%= image_tag'18.png', class:'news_link_image'%>
+        <div class='news_caption'>2023/10/25<br> ​限定品、早めにゲットしよう</div>
+      </div>
+      <div class='news_link'>
+        <%= image_tag'10.png', class:'news_link_image'%>
+        <div class='news_caption'>2023/08/15<br> ​​Available Only at Lee Shop</div>
+      </div>
+      <div class='news_link'>
+        <%= image_tag'21.png', class:'news_link_image'%>
+        <div class='news_caption'>2021/04/09<br> The Latest Collection バディリースタイルの最新コレクション</div>
+      </div>
+      <div class='news_link'>
+        <%= image_tag'19.png', class:'news_link_image'%>
+        <div class='news_caption'>2009/12/31<br> ​​Available!! リーショップでしか手に入らない</div>
+      </div>
+      
+    </div>
+
+    <div class='allview'>
+      <%= link_to "VIEW ALL", news_index_path %>
+    </div>
+  </div>
+
+  <footer>
+    <div class='tale_pictures'>
+      <%= render "shared/swipe_foot" %>
+    </div>
+
+    <div class='foot'>
+      <div class='topic'>
+        <ul class='footer_ul'>
+          <li class='fl_up'><%= link_to "TOP", root_path %></li>
+          <li class='fl_up'><%= link_to "FEATURES", features_index_path %></li>
+          <li class='fl_up'><%= link_to("SHOPLIST", "https://lee-japan.jp/")%></li>
+          <li class='fl_up'><%= link_to("ONLINE SHOP", "https://lee-japan.jp/", clsss:"menu")%></li>
+        </ul>
+
+        <div class='info'>
+          <div class='f_icon'>
+            <%= image_tag'sns_findus.png' %>
+          </div>
+          <div class='sns'>
+            <%= image_tag'FACEBOOK風のアイコン素材 その3.png', class:'f_info' %>
+            <%= image_tag'カメラのアイコン素材 1.png', class:'f_info' %>
+            <%= image_tag'動画再生ボタン.png', class:'f_info' %>
+          </div>
+        </div>
+
+      </div>
+
+      <div class='copyright'>
+        <div>© 1997 - 2023 GLABAL IMPACT CO.,LTD.,</div>
+      </div>
+    </div>
+  </footer>
+</html>
