@@ -37,7 +37,11 @@
 .link_image {
   max-width: 100%; /* 画像が親要素をはみ出さないようにする */
   width: 20vw;
+}
 
+.link_image:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
 }
 
 .caption{
@@ -85,6 +89,11 @@
 .news_link_image{
   /* max-width: 100%; 画像が親要素をはみ出さないようにする */
   width: 170px;
+}
+
+.news_link_image:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
 }
 
 .news_caption{
