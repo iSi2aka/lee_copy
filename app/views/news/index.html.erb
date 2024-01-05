@@ -37,35 +37,6 @@
   </div>
 
   <footer>
-    <div class='tale_pictures'>
-      <%= render "shared/swipe_foot" %>
-    </div>
-
-    <div class='foot'>
-      <div class='topic'>
-        <ul class='footer_ul'>
-          <li class='fl_up'><%= link_to "TOP", root_path %></li>
-          <li class='fl_up'><%= link_to "FEATURES", features_index_path %></li>
-          <li class='fl_up'><%= link_to("SHOPLIST", "https://lee-japan.jp/")%></li>
-          <li class='fl_up'><%= link_to("ONLINE SHOP", "https://lee-japan.jp/", clsss:"menu")%></li>
-        </ul>
-
-        <div class='info'>
-          <div class='f_icon'>
-            <%= image_tag'sns_findus.png' %>
-          </div>
-          <div class='sns'>
-            <%= image_tag'FACEBOOK風のアイコン素材 その3.png', class:'f_info' %>
-            <%= image_tag'カメラのアイコン素材 1.png', class:'f_info' %>
-            <%= image_tag'動画再生ボタン.png', class:'f_info' %>
-          </div>
-        </div>
-
-      </div>
-
-      <div class='copyright'>
-        <div>© 1997 - 2023 GLABAL IMPACT CO.,LTD.,</div>
-      </div>
-    </div>
+    <%= render "shared/footer" %>
   </footer>
 </html>
